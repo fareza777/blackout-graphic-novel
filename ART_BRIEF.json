@@ -1,0 +1,485 @@
+{
+  "arrival": {
+    "prompt": "Wide empty coastal radio station, back of a lone operator at amber dispatch console, storm beyond window.",
+    "alt": {
+      "en": "Wide empty coastal radio station, back of a lone operator at amber dispatch console, storm beyond window.",
+      "id": "Stasiun komunikasi pesisir · 00.47"
+    }
+  },
+  "desk": {
+    "prompt": "Overhead close view of warm printer receipt, circuit diagram, severed handset cable and cold mug on worn dispatch desk.",
+    "alt": {
+      "en": "Overhead close view of warm printer receipt, circuit diagram, severed handset cable and cold mug on worn dispatch desk.",
+      "id": "Meja komunikasi"
+    }
+  },
+  "first-signal": {
+    "prompt": "Gloved hands beside a compact analogue receiver, tuning needle, tangled lead and blue rain reflections.",
+    "alt": {
+      "en": "Gloved hands beside a compact analogue receiver, tuning needle, tangled lead and blue rain reflections.",
+      "id": "Radio darurat · mencari kanal"
+    }
+  },
+  "mara-call": {
+    "prompt": "Blue-clothed nurse viewed from behind on flooding clinic stair, broken watch on wrist, two fully hooded patients waiting.",
+    "alt": {
+      "en": "Blue-clothed nurse viewed from behind on flooding clinic stair, broken watch on wrist, two fully hooded patients waiting.",
+      "id": "Klinik timur · tangga servis"
+    }
+  },
+  "iman-call": {
+    "prompt": "Yellow-gloved technician seen only from back, holding two switch levers inside a wet substation cabinet.",
+    "alt": {
+      "en": "Yellow-gloved technician seen only from back, holding two switch levers inside a wet substation cabinet.",
+      "id": "Gardu · ruang sakelar bawah"
+    }
+  },
+  "raka-call": {
+    "prompt": "Red-strapped courier shown from behind beside locked dock gate, rippling ankle-high water, distant beacon.",
+    "alt": {
+      "en": "Red-strapped courier shown from behind beside locked dock gate, rippling ankle-high water, distant beacon.",
+      "id": "Jalur dermaga · pintu keluar terkunci"
+    }
+  },
+  "pressure": {
+    "prompt": "Tight composition of red courier strap and clenched sleeve on wet railing, no head visible, radio light in dark.",
+    "alt": {
+      "en": "Tight composition of red courier strap and clenched sleeve on wet railing, no head visible, radio light in dark.",
+      "id": "Kanal darurat bersama"
+    }
+  },
+  "after-pressure": {
+    "prompt": "Photo attachment on dispatch desk showing wet service stair, red bag strap and hand-drawn route arrow.",
+    "alt": {
+      "en": "Photo attachment on dispatch desk showing wet service stair, red bag strap and hand-drawn route arrow.",
+      "id": "Meja komunikasi · lampiran masuk"
+    }
+  },
+  "cross-check": {
+    "prompt": "Overhead two different printer documents connected by thread on investigation board, radio waveform slip.",
+    "alt": {
+      "en": "Overhead two different printer documents connected by thread on investigation board, radio waveform slip.",
+      "id": "Papan bukti"
+    }
+  },
+  "reconstructed": {
+    "prompt": "Empty operator chair in shadow, two time receipts laid across its seat, stormlight in doorway.",
+    "alt": {
+      "en": "Empty operator chair in shadow, two time receipts laid across its seat, stormlight in doorway.",
+      "id": "Kanal darurat bersama · 00.52"
+    }
+  },
+  "disclosure": {
+    "prompt": "A broken wristwatch against a clinic handrail, microphone and amber indicator reflected in shallow water.",
+    "alt": {
+      "en": "A broken wristwatch against a clinic handrail, microphone and amber indicator reflected in shallow water.",
+      "id": "Kanal darurat bersama"
+    }
+  },
+  "power-grid": {
+    "prompt": "Three heavy circuit breakers in an old generator panel, two glowing amber, yellow glove ready nearby.",
+    "alt": {
+      "en": "Three heavy circuit breakers in an old generator panel, two glowing amber, yellow glove ready nearby.",
+      "id": "Panel generator cadangan"
+    }
+  },
+  "evacuation": {
+    "prompt": "High view of three coastal routes under storm, clinic lights, dark relay structure and dock gate contrasted.",
+    "alt": {
+      "en": "High view of three coastal routes under storm, clinic lights, dark relay structure and dock gate contrasted.",
+      "id": "Kanal darurat bersama · jalur dikonfirmasi"
+    }
+  },
+  "rescue-plan": {
+    "prompt": "A forked service corridor with clinic door and dock exit signs, red strap courier silhouette at the junction.",
+    "alt": {
+      "en": "A forked service corridor with clinic door and dock exit signs, red strap courier silhouette at the junction.",
+      "id": "Dua jalur · satu instruksi"
+    }
+  },
+  "final-call": {
+    "prompt": "Severed handset at dark console, three fading channel lights, empty chair deeper in frame.",
+    "alt": {
+      "en": "Severed handset at dark console, three fading channel lights, empty chair deeper in frame.",
+      "id": "Stasiun komunikasi · dering ketiga"
+    }
+  },
+  "ending": {
+    "prompt": "Fresh rescue ledger beside live battery radio, grey dawnless harbor beyond window, operator back silhouette.",
+    "alt": {
+      "en": "Fresh rescue ledger beside live battery radio, grey dawnless harbor beyond window, operator back silhouette.",
+      "id": "Pendaratan aman pertama · 01.06"
+    }
+  },
+  "storm-hub": {
+    "prompt": "Rain-streaked dispatch window framing apartment torch signals, penciled flood map on sill.",
+    "alt": {
+      "en": "Rain-streaked dispatch window framing apartment torch signals, penciled flood map on sill.",
+      "id": "Jendela stasiun · 01.09"
+    }
+  },
+  "second-signal": {
+    "prompt": "Macro view of separate archive receiver dial and antenna lead lit cyan, rain droplets on the metal casing.",
+    "alt": {
+      "en": "Macro view of separate archive receiver dial and antenna lead lit cyan, rain droplets on the metal casing.",
+      "id": "Sinyal arsip · 101,7 MHz"
+    }
+  },
+  "wrong-voice": {
+    "prompt": "Headphones dropped onto tape-splice notes, an empty recording spool turning in amber desk light.",
+    "alt": {
+      "en": "Headphones dropped onto tape-splice notes, an empty recording spool turning in amber desk light.",
+      "id": "Headphone stasiun"
+    }
+  },
+  "archive-room": {
+    "prompt": "Open metal archive door in long dark corridor, boxed cassette tapes and single lamp visible inside.",
+    "alt": {
+      "en": "Open metal archive door in long dark corridor, boxed cassette tapes and single lamp visible inside.",
+      "id": "Lorong arsip · Konsol C"
+    }
+  },
+  "archive-inspect": {
+    "prompt": "Overhead archive desk with cassette splice map, signed consent page, queue ledger and old stopped prop clock.",
+    "alt": {
+      "en": "Overhead archive desk with cassette splice map, signed consent page, queue ledger and old stopped prop clock.",
+      "id": "Meja arsip"
+    }
+  },
+  "thirteen-minutes": {
+    "prompt": "Close view of two printer timestamp strips across water-stained batch ledger, shadow of moving rain.",
+    "alt": {
+      "en": "Close view of two printer timestamp strips across water-stained batch ledger, shadow of moving rain.",
+      "id": "Buku arsip · kumpulan C-18"
+    }
+  },
+  "consent-file": {
+    "prompt": "Old training booth viewed through glass, operator seated from rear before foam wall and microphone, untouched tea.",
+    "alt": {
+      "en": "Old training booth viewed through glass, operator seated from rear before foam wall and microphone, untouched tea.",
+      "id": "Bilik latihan · musim lalu"
+    }
+  },
+  "recording-phrase": {
+    "prompt": "Original tape reel beside tiny label file27 and unused training microphone, discarded paper cup.",
+    "alt": {
+      "en": "Original tape reel beside tiny label file27 and unused training microphone, discarded paper cup.",
+      "id": "Rekaman asli · berkas 27"
+    }
+  },
+  "borrowed-breath": {
+    "prompt": "Battery radio and red recording lamp on an open shelter window, many backs and fully wrapped rain hoods outside.",
+    "alt": {
+      "en": "Battery radio and red recording lamp on an open shelter window, many backs and fully wrapped rain hoods outside.",
+      "id": "Kanal darurat terbuka"
+    }
+  },
+  "director-call": {
+    "prompt": "Dry private office curtain, anonymous cuffed hand beside glass and desktop private-line phone, no head or portrait.",
+    "alt": {
+      "en": "Dry private office curtain, anonymous cuffed hand beside glass and desktop private-line phone, no head or portrait.",
+      "id": "Jalur pribadi direktur · 01.31"
+    }
+  },
+  "culpability": {
+    "prompt": "Signed routing page under a tense operator hand, contrasting wet coat sleeve and spotless director document.",
+    "alt": {
+      "en": "Signed routing page under a tense operator hand, contrasting wet coat sleeve and spotless director document.",
+      "id": "Tanda tangan di bawah aturan"
+    }
+  },
+  "channel-hub": {
+    "prompt": "Rain beads on station glass, handdrawn service network map and two small incoming-message slips on sill.",
+    "alt": {
+      "en": "Rain beads on station glass, handdrawn service network map and two small incoming-message slips on sill.",
+      "id": "Kanal servis · 01.39"
+    }
+  },
+  "service-tunnel": {
+    "prompt": "Underground service stair bending uphill, muddy yellow glove pointing to a handdrawn arrow on wall.",
+    "alt": {
+      "en": "Underground service stair bending uphill, muddy yellow glove pointing to a handdrawn arrow on wall.",
+      "id": "Terowongan servis bawah"
+    }
+  },
+  "echo-check": {
+    "prompt": "Authorization evidence board with two signed documents, ledger page and thin connective pencil lines.",
+    "alt": {
+      "en": "Authorization evidence board with two signed documents, ledger page and thin connective pencil lines.",
+      "id": "Papan izin"
+    }
+  },
+  "queue-proof": {
+    "prompt": "Torn batch header beside signed consent, neatly arranged sequence of timestamp receipts, desk dawn-blue shadows.",
+    "alt": {
+      "en": "Torn batch header beside signed consent, neatly arranged sequence of timestamp receipts, desk dawn-blue shadows.",
+      "id": "Perintah di balik perintah"
+    }
+  },
+  "tide-warning": {
+    "prompt": "Harbor buoy swallowed by storm waves, tower stair and inland road visible behind, distant shelter lamp.",
+    "alt": {
+      "en": "Harbor buoy swallowed by storm waves, tower stair and inland road visible behind, distant shelter lamp.",
+      "id": "Kanal cuaca posko bukit · 01.54"
+    }
+  },
+  "ledger-choice": {
+    "prompt": "A sealed raw archive envelope and a second redacted copy beside operator coat, close overhead composition.",
+    "alt": {
+      "en": "A sealed raw archive envelope and a second redacted copy beside operator coat, close overhead composition.",
+      "id": "Baki ekspor arsip"
+    }
+  },
+  "act-two-close": {
+    "prompt": "Operator back silhouette leaving dispatch doorway with battery receiver, coat sheltering archive envelope, lantern rain.",
+    "alt": {
+      "en": "Operator back silhouette leaving dispatch doorway with battery receiver, coat sheltering archive envelope, lantern rain.",
+      "id": "Pintu keluar stasiun · 01.59"
+    }
+  },
+  "tower-approach": {
+    "prompt": "Tall coastal transmission tower above harbor surge, cloth tied to handrail, hooded operator climbing from behind.",
+    "alt": {
+      "en": "Tall coastal transmission tower above harbor surge, cloth tied to handrail, hooded operator climbing from behind.",
+      "id": "Jalan menara · 02.03"
+    }
+  },
+  "final-hub": {
+    "prompt": "Tower upper landing with closed hatch above, distant flare below and inland stair vanishing into storm.",
+    "alt": {
+      "en": "Tower upper landing with closed hatch above, distant flare below and inland stair vanishing into storm.",
+      "id": "Pendaratan atas · panggilan sekitar terakhir"
+    }
+  },
+  "roof-hatch": {
+    "prompt": "Yellow gloves lifting manual hatch with three bolts, narrow inland road revealed through rain, head outside frame.",
+    "alt": {
+      "en": "Yellow gloves lifting manual hatch with three bolts, narrow inland road revealed through rain, head outside frame.",
+      "id": "Pintu atap menara"
+    }
+  },
+  "switch-betrayal": {
+    "prompt": "Locked electric grille enclosing switch platform, yellow glove gripping bars, red override lamp.",
+    "alt": {
+      "en": "Locked electric grille enclosing switch platform, yellow glove gripping bars, red override lamp.",
+      "id": "Penimpaan terakhir"
+    }
+  },
+  "rescue-check": {
+    "prompt": "Blue hooded medic seen from rear holding pencil and live headcount board, two groups of fully covered silhouettes.",
+    "alt": {
+      "en": "Blue hooded medic seen from rear holding pencil and live headcount board, two groups of fully covered silhouettes.",
+      "id": "Hitungan jalur bawah · 02.08"
+    }
+  },
+  "flood-choice": {
+    "prompt": "Wide bridge viewed from tower railing, rushing lower water, dry manual stair branching toward inland road.",
+    "alt": {
+      "en": "Wide bridge viewed from tower railing, rushing lower water, dry manual stair branching toward inland road.",
+      "id": "Jembatan dan kait pelepas"
+    }
+  },
+  "crossing-report": {
+    "prompt": "Wet sleeves reaching across a handrail, yellow glove among them, blurred faceless hooded figures climbing away.",
+    "alt": {
+      "en": "Wet sleeves reaching across a handrail, yellow glove among them, blurred faceless hooded figures climbing away.",
+      "id": "Laporan penyeberangan · nama langsung"
+    }
+  },
+  "public-channel": {
+    "prompt": "Public transmitter antenna and sheltered radio desk on tower roof, cloth covered evacuee backs beyond.",
+    "alt": {
+      "en": "Public transmitter antenna and sheltered radio desk on tower roof, cloth covered evacuee backs beyond.",
+      "id": "Pemancar umum · 02.17"
+    }
+  },
+  "before-publication": {
+    "prompt": "Open archive module between a signed routing page and neatly redacted identity slips, rain on sleeve edges.",
+    "alt": {
+      "en": "Open archive module between a signed routing page and neatly redacted identity slips, rain on sleeve edges.",
+      "id": "Tiga hal di dalam arsip"
+    }
+  },
+  "publication": {
+    "prompt": "A thumb poised above physical send switch, raw audit envelope and private recording cassette adjacent.",
+    "alt": {
+      "en": "A thumb poised above physical send switch, raw audit envelope and private recording cassette adjacent.",
+      "id": "Keputusan arsip terakhir"
+    }
+  },
+  "final-send": {
+    "prompt": "Live microphone sheltered under coat, handwritten rescue names and operator glove making one pencil correction.",
+    "alt": {
+      "en": "Live microphone sheltered under coat, handwritten rescue names and operator glove making one pencil correction.",
+      "id": "Suara yang kamu pilih"
+    }
+  },
+  "dawn-crossing": {
+    "prompt": "Early grey sunrise through bus window, wet coats and paper coffee cup, passengers exclusively from behind.",
+    "alt": {
+      "en": "Early grey sunrise through bus window, wet coats and paper coffee cup, passengers exclusively from behind.",
+      "id": "Jalan daratan · 05.42"
+    }
+  },
+  "aftermath": {
+    "prompt": "Fresh morning ledger and pencil on shelter table, unplugged archive cable beside an open battery radio.",
+    "alt": {
+      "en": "Fresh morning ledger and pencil on shelter table, unplugged archive cable beside an open battery radio.",
+      "id": "Catatan pagi"
+    }
+  },
+  "final-ending": {
+    "prompt": "Golden first light over inland shelter road, empty operator coat over a chair and open handwritten rescue log.",
+    "alt": {
+      "en": "Golden first light over inland shelter road, empty operator coat over a chair and open handwritten rescue log.",
+      "id": "Pagi · catatan terakhirmu"
+    }
+  },
+  "bell-call": {
+    "prompt": "Market bell loft, older woman shown from rear in full head wrap and long raincoat holding neighbor radio.",
+    "alt": {
+      "en": "Market bell loft, older woman shown from rear in full head wrap and long raincoat holding neighbor radio.",
+      "id": "Pendaratan atas pasar"
+    }
+  },
+  "bell-rope-scene": {
+    "prompt": "Close view of brass bell rope snagged on shutter hook, dry upper landing and wood grain.",
+    "alt": {
+      "en": "Close view of brass bell rope snagged on shutter hook, dry upper landing and wood grain.",
+      "id": "Loteng lonceng"
+    }
+  },
+  "bell-answer": {
+    "prompt": "Brass market bell ringing against dawnless rooftops, torchlit windows answering across rain.",
+    "alt": {
+      "en": "Brass market bell ringing against dawnless rooftops, torchlit windows answering across rain.",
+      "id": "Tanda yang diingat jalan"
+    }
+  },
+  "medicine-call": {
+    "prompt": "Blue hooded medic from behind and porter fully covered by hood carrying sealed cooler above flooded loading ramp.",
+    "alt": {
+      "en": "Blue hooded medic from behind and porter fully covered by hood carrying sealed cooler above flooded loading ramp.",
+      "id": "Ramp barang klinik"
+    }
+  },
+  "medicine-route": {
+    "prompt": "Cargo tag on sealed cooler beside laundry passage arrow, tiled dry uphill corridor beyond.",
+    "alt": {
+      "en": "Cargo tag on sealed cooler beside laundry passage arrow, tiled dry uphill corridor beyond.",
+      "id": "Rute jalur laundry"
+    }
+  },
+  "medicine-delivery": {
+    "prompt": "Sealed clinic cooler on hill-shelter intake counter, blue hooded medic back and empty waiting chair.",
+    "alt": {
+      "en": "Sealed clinic cooler on hill-shelter intake counter, blue hooded medic back and empty waiting chair.",
+      "id": "Pintu posko bukit"
+    }
+  },
+  "letter-open": {
+    "prompt": "Private old memory card labeled Nila beside rain-dappled service inbox, operator sleeve paused nearby.",
+    "alt": {
+      "en": "Private old memory card labeled Nila beside rain-dappled service inbox, operator sleeve paused nearby.",
+      "id": "Pesan pribadi · NILA"
+    }
+  },
+  "letter-listen": {
+    "prompt": "Memory image of two breakfast cups at ferry-terminal stall, empty chairs and folded charger cable, no people.",
+    "alt": {
+      "en": "Memory image of two breakfast cups at ferry-terminal stall, empty chairs and folded charger cable, no people.",
+      "id": "Sarapan yang tak pernah dipesan"
+    }
+  },
+  "letter-answer": {
+    "prompt": "Single private recording cassette tucked inside operator coat pocket, breakfast receipt held in hand.",
+    "alt": {
+      "en": "Single private recording cassette tucked inside operator coat pocket, breakfast receipt held in hand.",
+      "id": "Kenangan tanpa tugas"
+    }
+  },
+  "witness-call": {
+    "prompt": "Grey raincoat senior operator from behind on pump house roof, coat hem snagged on nail, signal lamp.",
+    "alt": {
+      "en": "Grey raincoat senior operator from behind on pump house roof, coat hem snagged on nail, signal lamp.",
+      "id": "Atap rumah pompa lama"
+    }
+  },
+  "witness-proof": {
+    "prompt": "Voluntary handwritten witness statement beside signed routing copy, grey gloved hand covering private address.",
+    "alt": {
+      "en": "Voluntary handwritten witness statement beside signed routing copy, grey gloved hand covering private address.",
+      "id": "Saksi yang bersedia"
+    }
+  },
+  "witness-return": {
+    "prompt": "Pump house roof pickup, rescue boat below and grey coated operator descending from behind with wrapped lunch package.",
+    "alt": {
+      "en": "Pump house roof pickup, rescue boat below and grey coated operator descending from behind with wrapped lunch package.",
+      "id": "Jemputan rumah pompa dikonfirmasi"
+    }
+  },
+  "dog-bark": {
+    "prompt": "Small sandy dog on narrow service ledge below route flare, fully covered gate worker seen from rear above ladder.",
+    "alt": {
+      "en": "Small sandy dog on narrow service ledge below route flare, fully covered gate worker seen from rear above ladder.",
+      "id": "Suar di bawah pendaratan"
+    }
+  },
+  "dog-ladder": {
+    "prompt": "Maintenance ladder leading from flooded ledge to upper tower stair, glowing flare and dry rung markers.",
+    "alt": {
+      "en": "Maintenance ladder leading from flooded ledge to upper tower stair, glowing flare and dry rung markers.",
+      "id": "Tangga perawatan bertanda"
+    }
+  },
+  "dog-home": {
+    "prompt": "Sandy dog wrapped in open raincoat on upper landing, boots and lamp nearby, gate worker head outside frame.",
+    "alt": {
+      "en": "Sandy dog wrapped in open raincoat on upper landing, boots and lamp nearby, gate worker head outside frame.",
+      "id": "Satu lagi dalam hitungan"
+    }
+  },
+  "encounter-window": {
+    "prompt": "Neighborhood balcony windows with varied torch signals across rain, no visible human faces.",
+    "alt": {
+      "en": "Neighborhood balcony windows with varied torch signals across rain, no visible human faces.",
+      "id": "Kanal warga · jendela"
+    }
+  },
+  "encounter-rooftops": {
+    "prompt": "Roofs with bedsheet rescue flag, drowned birthday-cake box and small reflective mirror, tiny hooded back silhouettes.",
+    "alt": {
+      "en": "Roofs with bedsheet rescue flag, drowned birthday-cake box and small reflective mirror, tiny hooded back silhouettes.",
+      "id": "Tanda dari atap ke atap"
+    }
+  },
+  "encounter-tunnel": {
+    "prompt": "Dry-side service tunnel, wedged cleaning trolley, one abandoned shoe and lamp above route chalkmarks.",
+    "alt": {
+      "en": "Dry-side service tunnel, wedged cleaning trolley, one abandoned shoe and lamp above route chalkmarks.",
+      "id": "Kanal perawatan · ketukan"
+    }
+  },
+  "encounter-cargo": {
+    "prompt": "Rainy bakery delivery van beside stacked bread crates and tied pet carrier, anonymous driver back silhouette.",
+    "alt": {
+      "en": "Rainy bakery delivery van beside stacked bread crates and tied pet carrier, anonymous driver back silhouette.",
+      "id": "Kanal kiriman tanpa tanda tangan"
+    }
+  },
+  "encounter-rescue": {
+    "prompt": "Small rescue boat moored beside inland stair with drenched luggage and forgotten coat, hooded crew from rear.",
+    "alt": {
+      "en": "Small rescue boat moored beside inland stair with drenched luggage and forgotten coat, hooded crew from rear.",
+      "id": "Kanal penyelamatan · panggilan sekitar terakhir"
+    }
+  },
+  "encounter-static": {
+    "prompt": "Tower battery radio among rain drops with unplugged receiver lead, separate small lamp shining through fog.",
+    "alt": {
+      "en": "Tower battery radio among rain drops with unplugged receiver lead, separate small lamp shining through fog.",
+      "id": "Suara di balik desis"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121717">
+  <meta name="description" content="An interactive graphic novel. Tune a signal, investigate a contradiction, and decide who gets through the blackout.">
+  <title>Blackout Frequency</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/app-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css?v=voices-1">
+  <script src="story.js?v=voices-1" defer></script>
+  <script src="core.js?v=voices-1" defer></script>
+  <script src="voice-manifest.js?v=voices-1" defer></script>
+  <script src="voice-player.js?v=voices-1" defer></script>
+  <script src="monetization.js?v=ads-1" defer></script>
+  <script src="game.js?v=voices-1" defer></script>
+</head>
+<body data-screen="splash">
+  <div id="app" class="app-shell">
+    <main id="splashScreen" class="screen splash-screen" aria-labelledby="splashTitle">
+      <img id="splashArt" class="splash-art" src="assets/splash.png" alt="A silent radio station above a city in darkness">
+      <div class="splash-copy">
+        <img class="splash-icon" src="assets/app-icon.png" alt="" width="60" height="60">
+        <p class="eyebrow" data-i18n="splashEyebrow">A story carried by voices</p>
+        <h1 id="splashTitle">Blackout<br><em>Frequency.</em></h1>
+        <button id="splashEnter" class="primary-button" type="button" data-i18n="splashEnter">Enter the frequency →</button>
+        <p class="splash-note" data-i18n="splashNote">A faceless graphic novel</p>
+      </div>
+    </main>
+    <header class="topbar">
+      <a class="brand" href="#" id="brandHome" aria-label="Blackout Frequency home">
+        <img class="brand-mark" src="assets/app-icon.png" alt="" width="32" height="32">
+        <span class="brand-text">BLACKOUT<br>FREQUENCY</span>
+      </a>
+      <div class="header-actions">
+        <span class="language-indicator" id="languageIndicator">EN · AUTO</span>
+        <button class="icon-button auxiliary-button" id="contactsBtn" type="button" data-i18n="voices">Voices</button>
+        <button class="icon-button auxiliary-button" id="notesBtn" type="button" data-i18n="notes">Notes</button>
+        <button class="icon-button" id="soundBtn" type="button" aria-pressed="false" data-i18n="soundOff">Sound off</button>
+        <button class="icon-button" id="settingsBtn" type="button" data-i18n="settings">Settings</button>
+      </div>
+    </header>
+    <main id="onboardingScreen" class="screen onboarding-screen" aria-labelledby="onboardingTitle" hidden>
+      <div class="onboarding-visual"><img id="onboardingArt" src="assets/scene-arrival.png" alt="An operator listening at a radio station"></div>
+      <div class="onboarding-copy">
+        <p class="eyebrow" data-i18n="onboardingEyebrow">Before the night begins</p>
+        <h1 id="onboardingTitle">Listen. Look closer.</h1>
+        <p id="onboardingBody">Every voice carries a piece of the truth. Inspect your surroundings, tune the radio, and choose what to believe.</p>
+        <div class="onboarding-pagination"><button id="onboardingBack" class="text-button" type="button" data-i18n="previous">Back</button><span id="onboardingCount" aria-live="polite">1 / 3</span><button id="onboardingNext" class="primary-button" type="button" data-i18n="readNext">Continue →</button></div>
+        <button id="onboardingSkip" class="text-button" type="button" data-i18n="onboardingSkip">Skip introduction</button>
+      </div>
+    </main>
+    <main id="home" class="screen home-view" hidden>
+      <div class="hero-art"><img id="menuArt" src="assets/menu.png" alt="A coastal radio station overlooking a dark city"></div>
+      <div class="home-copy">
+        <span class="status-pill" data-i18n="demoBadge">AN INTERACTIVE GRAPHIC NOVEL</span>
+        <p class="eyebrow" data-i18n="heroEyebrow">One night. Three voices. Your call.</p>
+        <h1 id="heroTitle">Blackout<br><em>Frequency.</em></h1>
+        <p class="hero-summary" data-i18n="heroSummary">The city has gone dark. Three people are calling your station. You can hear all of them. You cannot help everyone.</p>
+        <div class="home-actions">
+          <button class="primary-button" id="startBtn" type="button" data-i18n="begin">New game →</button>
+          <button class="secondary-button" id="resumeBtn" type="button" hidden data-i18n="resume">Continue transmission</button>
+        </div>
+        <nav class="menu-grid" aria-label="Game menu">
+          <button class="menu-button" id="menuSettingsBtn" type="button" data-i18n="settings">Settings</button>
+          <button class="menu-button" id="galleryBtn" type="button" data-i18n="gallery">Art gallery</button>
+          <button class="menu-button" id="onboardingBtn" type="button" data-i18n="guide">How to play</button>
+          <button class="menu-button" id="aboutBtn" type="button" data-i18n="about">About</button>
+          <button class="menu-button" id="shareBtn" type="button" data-i18n="share">Share</button>
+          <button class="menu-button" id="rateBtn" type="button" data-i18n="rate">Rate this story</button>
+        </nav>
+        <p class="save-note" data-i18n="homeNote">Explore the station. Find the signal. Make the call.</p>
+      </div>
+      <div class="feature-strip">
+        <div class="feature-item"><span class="feature-number">01 /</span><span data-i18n="featureExplore">Investigate your surroundings</span></div>
+        <div class="feature-item"><span class="feature-number">02 /</span><span data-i18n="featureConnect">Connect the evidence</span></div>
+        <div class="feature-item"><span class="feature-number">03 /</span><span data-i18n="featureDecide">Live with your decisions</span></div>
+      </div>
+    </main>
+    <main id="game" class="screen" hidden>
+      <div class="game-layout">
+        <aside class="station-sidebar" aria-label="Contacts and station">
+          <p class="section-label" data-i18n="stationLabel">NORTH COAST / STATION 04</p>
+          <h2 class="station-title" data-i18n="contacts">On the other end</h2>
+          <div id="contactList" class="contact-list"></div>
+          <div class="power-status">
+            <div class="trust-line"><span data-i18n="backupPower">Backup battery</span><span id="powerValue">100%</span></div>
+            <div class="power-bar" role="meter" aria-label="Backup battery" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" id="powerMeter"><div class="power-fill" id="powerFill"></div></div>
+          </div>
+          <p class="station-footer" data-i18n="stationNote">The receiver runs on battery. The city circuits need your generator.</p>
+        </aside>
+        <section class="play-column" aria-label="Story and interactions">
+          <div class="scene-header"><span class="location" id="location"></span><span class="chapter" id="chapterLabel"></span><button id="activityArtBtn" class="text-button" type="button" data-i18n="viewArt">View art</button></div>
+          <div class="scene-art art-desk" id="sceneArt"><img id="sceneImage" src="assets/scene-arrival.png" alt="An operator seen from behind at a radio desk"><button id="viewArtBtn" class="art-view-button" type="button" data-i18n="viewArt">View art</button><span class="scene-art-caption" id="artCaption"></span></div>
+          <article class="story-card">
+            <div class="speaker-row"><span class="speaker-symbol" id="speakerSymbol" aria-hidden="true"></span><div><span class="speaker-name" id="speakerName"></span><span class="speaker-role" id="speakerRole"></span></div></div>
+            <div id="storyVoiceSlot"><div id="voicePanel" class="voice-panel" role="group" aria-label="English voiceover" hidden><button id="voicePlay" class="voice-button" type="button" aria-label="Play voiceover">▶</button><div class="voice-caption"><span id="voiceSpeaker">Narrator</span><span id="voiceTime">EN · 0:00</span></div><input id="voiceProgress" class="voice-progress" type="range" min="0" max="1" step="0.1" value="0" aria-label="Voiceover position"><button id="voiceReplay" class="voice-button voice-replay" type="button" aria-label="Replay this page">↺</button></div></div>
+            <audio id="voiceMedia" preload="metadata" hidden></audio>
+            <div id="storyText" class="story-text"></div>
+            <div class="beat-navigation" id="beatNavigation" hidden>
+              <button class="text-button" id="previousBeat" type="button" data-i18n="previous">Back</button>
+              <span class="beat-count" id="beatCount" aria-live="polite"></span>
+              <button class="secondary-button" id="nextBeat" type="button" data-i18n="readNext">Continue →</button>
+            </div>
+            <div id="interactionHost" class="interaction-host"></div>
+            <div id="choices" class="choices"></div>
+          </article>
+        </section>
+        <aside class="evidence-sidebar" aria-label="Evidence notebook">
+          <div class="trust-line"><p class="section-label" data-i18n="notebook">FIELD NOTES</p><span class="evidence-count" id="evidenceCount">0</span></div>
+          <p class="muted" data-i18n="notebookHint">Details worth remembering.</p>
+          <div id="evidenceList" class="evidence-list"></div>
+          <p class="muted" id="noEvidence" data-i18n="noEvidence">Your notebook is empty. Inspect the station to find your first lead.</p>
+        </aside>
+      </div>
+      <footer class="game-footer"><div class="footer-left"><span id="saveStatus" data-i18n="autoSaved">Progress saved on this device</span></div><div class="footer-actions"><button id="questsBtn" class="text-button" type="button" data-i18n="quests">Quests</button><button id="homeBtn" class="text-button" type="button" data-i18n="returnHome">Station menu</button></div></footer>
+    </main>
+    <dialog id="settingsDialog" class="settings-dialog">
+      <div class="dialog-header"><h2 data-i18n="settings">Settings</h2><button class="dialog-close" type="button" data-close="settingsDialog" aria-label="Close">×</button></div>
+      <div class="setting-field"><label for="languageSelect" data-i18n="language">Language</label><select id="languageSelect"><option value="auto">Automatic · device language</option><option value="en">English</option><option value="id">Bahasa Indonesia</option></select></div>
+      <p class="settings-note" data-i18n="languageNote">English is the default. Choose Automatic to follow your device.</p>
+      <div class="toggle-row"><label for="voiceToggle" data-i18n="voiceover">English voiceover</label><input id="voiceToggle" type="checkbox" checked></div>
+      <p class="settings-note" data-i18n="voiceNote">A full cast voices every story route. Voiceover stays in English when the text language changes.</p>
+      <div class="toggle-row"><label for="voiceAutoplayToggle" data-i18n="voiceAutoplay">Play each page automatically</label><input id="voiceAutoplayToggle" type="checkbox" checked></div>
+      <div class="setting-field"><label for="voiceVolume" data-i18n="voiceVolume">Voice volume</label><input id="voiceVolume" type="range" min="0" max="100" step="5" value="90"></div>
+      <div class="setting-field"><label for="voiceSpeed" data-i18n="voiceSpeed">Voice speed</label><select id="voiceSpeed"><option value="0.75">0.75×</option><option value="0.9">0.9×</option><option value="1">1×</option><option value="1.15">1.15×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></div>
+      <div class="toggle-row"><label for="audioToggle" data-i18n="ambientAudio">Ambient radio audio</label><input id="audioToggle" type="checkbox"></div>
+      <p class="settings-note" data-i18n="audioNote">All clues are also shown as text. Headphones are optional.</p>
+      <div class="setting-field"><label for="textSizeSelect" data-i18n="textSize">Text size</label><select id="textSizeSelect"><option value="regular" data-i18n="textRegular">Regular</option><option value="large" data-i18n="textLarge">Large</option></select></div>
+      <div class="toggle-row"><label for="motionToggle" data-i18n="reduceMotion">Reduce motion</label><input id="motionToggle" type="checkbox"></div>
+      <div id="adPrivacySection" hidden><button id="adPrivacyBtn" class="secondary-button" type="button" data-i18n="adPrivacy">Ad privacy choices</button></div>
+      <button class="secondary-button" type="button" data-close="settingsDialog" data-i18n="done">Done</button>
+    </dialog>
+    <dialog id="evidenceDialog" class="settings-dialog">
+      <div class="dialog-header"><h2 id="evidenceDialogTitle"></h2><button class="dialog-close" type="button" data-close="evidenceDialog" aria-label="Close">×</button></div>
+      <div id="evidenceVoiceSlot"></div>
+      <div id="evidenceDialogBody" class="evidence-body"></div>
+      <button class="secondary-button" type="button" data-close="evidenceDialog" data-i18n="done">Done</button>
+    </dialog>
+    <dialog id="stationDialog" class="settings-dialog auxiliary-dialog">
+      <div class="dialog-header"><h2 data-i18n="voices">Voices</h2><button class="dialog-close" type="button" data-close="stationDialog" aria-label="Close">×</button></div>
+      <div id="stationDialogContent"></div>
+    </dialog>
+    <dialog id="notesDialog" class="settings-dialog auxiliary-dialog">
+      <div class="dialog-header"><h2 data-i18n="notes">Notes</h2><button class="dialog-close" type="button" data-close="notesDialog" aria-label="Close">×</button></div>
+      <div id="notesDialogContent"></div>
+    </dialog>
+    <dialog id="restartDialog" class="settings-dialog">
+      <div class="dialog-header"><h2 data-i18n="restartTitle">Begin a new night?</h2><button class="dialog-close" type="button" data-close="restartDialog" aria-label="Close">×</button></div>
+      <p data-i18n="restartNote">Your current chapter progress will be replaced. Language and audio settings stay the same.</p>
+      <div class="home-actions"><button class="primary-button" id="confirmRestart" type="button" data-i18n="newNight">Start a new night</button><button class="secondary-button" type="button" data-close="restartDialog" data-i18n="cancel">Cancel</button></div>
+    </dialog>
+    <dialog id="aboutDialog" class="settings-dialog">
+      <div class="dialog-header"><h2 data-i18n="about">About</h2><button class="dialog-close" type="button" data-close="aboutDialog" aria-label="Close">×</button></div>
+      <div class="about-brand"><img src="assets/app-icon.png" alt="" width="64" height="64"><div><h3>Blackout Frequency</h3><p class="muted" data-i18n="aboutVersion">An original interactive graphic novel · 1.0</p></div></div>
+      <p class="dialog-prose" data-i18n="aboutStory">A city without light. People who still answer. A story about the promises we make when nobody can see us.</p>
+      <p class="settings-note" data-i18n="aboutCredits">Original story, code, and AI-assisted illustrations created for Blackout Frequency. All characters are fictional. Every portrait uses silhouettes, backs of heads, or fully covered faces.</p>
+      <p class="settings-note" data-i18n="aboutAccess">Play with or without sound. Adjust text size, language, and motion in Settings. Your progress stays on this device.</p>
+      <button class="secondary-button" type="button" data-close="aboutDialog" data-i18n="done">Done</button>
+    </dialog>
+    <dialog id="shareDialog" class="settings-dialog">
+      <div class="dialog-header"><h2 data-i18n="share">Share</h2><button class="dialog-close" type="button" data-close="shareDialog" aria-label="Close">×</button></div>
+      <p class="dialog-prose" data-i18n="shareNote">Send someone a frequency worth listening to.</p>
+      <label class="sr-only" for="shareText" data-i18n="shareMessage">Share message</label><textarea id="shareText" class="dialog-textarea" readonly rows="4"></textarea>
+      <div class="dialog-actions"><button id="copyShareBtn" class="primary-button" type="button" data-i18n="copyShare">Copy message</button><button id="nativeShareBtn" class="secondary-button" type="button" data-i18n="shareDevice">Share…</button></div>
+      <p id="shareStatus" class="settings-note" role="status"></p>
+    </dialog>
+    <dialog id="rateDialog" class="settings-dialog">
+      <div class="dialog-header"><h2 data-i18n="rate">Rate this story</h2><button class="dialog-close" type="button" data-close="rateDialog" aria-label="Close">×</button></div>
+      <p class="dialog-prose" data-i18n="rateNote">How did the night stay with you?</p>
+      <div id="ratingStars" class="rating-stars" role="group" aria-label="Story rating"><button type="button" data-rating="1" aria-label="1 star" aria-pressed="false">★</button><button type="button" data-rating="2" aria-label="2 stars" aria-pressed="false">★</button><button type="button" data-rating="3" aria-label="3 stars" aria-pressed="false">★</button><button type="button" data-rating="4" aria-label="4 stars" aria-pressed="false">★</button><button type="button" data-rating="5" aria-label="5 stars" aria-pressed="false">★</button></div>
+      <label for="reviewText" class="field-label" data-i18n="reviewLabel">A few words, if you like</label><textarea id="reviewText" class="dialog-textarea" maxlength="400" rows="3"></textarea>
+      <p class="settings-note" data-i18n="rateLocal">Your rating is saved on this device. It is not posted to an app store.</p>
+      <button id="saveReviewBtn" class="primary-button" type="button" data-i18n="saveReview">Save my rating</button><p id="reviewStatus" class="settings-note" role="status"></p>
+    </dialog>
+    <dialog id="questDialog" class="settings-dialog quest-dialog">
+      <div class="dialog-header"><h2 data-i18n="quests">Quests</h2><button class="dialog-close" type="button" data-close="questDialog" aria-label="Close">×</button></div>
+      <p class="settings-note" data-i18n="questNote">Follow the signal. Remember the people.</p>
+      <section id="rewardHintCard" class="reward-hint-card" hidden>
+        <h3 data-i18n="stationAssist">A clearer signal</h3>
+        <p id="rewardHintNote" class="settings-note" data-i18n="rewardHintNote">Watch an optional ad to unlock one helpful hint for your current scene. You can return to the hint any time during this night.</p>
+        <button id="rewardHintBtn" class="secondary-button" type="button" data-i18n="watchHint">Watch ad · unlock one hint</button>
+        <p id="rewardHintStatus" class="settings-note" role="status" aria-live="polite"></p>
+        <p id="rewardHintText" class="dialog-prose" hidden></p>
+      </section>
+      <div id="questList" class="quest-list"></div>
+    </dialog>
+    <dialog id="galleryDialog" class="settings-dialog gallery-dialog">
+      <div class="dialog-header"><h2 data-i18n="gallery">Art gallery</h2><button class="dialog-close" type="button" data-close="galleryDialog" aria-label="Close">×</button></div>
+      <p class="settings-note" id="galleryNote" data-i18n="galleryNote">The places and moments your journey has uncovered.</p>
+      <div id="galleryGrid" class="gallery-grid"></div>
+    </dialog>
+    <dialog id="artDialog" class="art-dialog">
+      <div class="dialog-header"><h2 id="artDialogTitle"></h2><button class="dialog-close" type="button" data-close="artDialog" aria-label="Close">×</button></div>
+      <img id="artDialogImage" class="full-art" src="assets/scene-arrival.png" alt=""><p id="artDialogCaption" class="settings-note"></p>
+    </dialog>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,562 @@
+{
+  "version": 3,
+  "tool": "Built-in imagegen",
+  "constraints": "Original textured ink; no visible facial anatomy; full subjects safely framed; distinct art for scenes, hub returns, encounter variants and endings; no text in artwork",
+  "expectedDistinctAssets": 110,
+  "assets": [
+    {
+      "id": "app-icon",
+      "path": "assets/app-icon.png",
+      "prompt": "Use case: logo-brand. Create a polished square app icon for an original mystery graphic novel Blackout Frequency. A luminous amber radio dial shaped into an incomplete circle, tiny cyan waveform cutting through rain-dark charcoal, textured embossed ink, simple memorable silhouette readable at small size, all design comfortably within central70percent safe area. Full bleed dark teal background. Single square1024 icon, not mockup or sheet. No text letters face or character."
+    },
+    {
+      "id": "menu",
+      "path": "assets/menu.png",
+      "prompt": "Use case: illustration-story. Standalone cinematic landscape cover16:9 for original coastal mystery Blackout Frequency: a coastal radio tower above flooded corrugated rooftops, distant lighthouse beam piercing blue rain, small warm apartment windows like unanswered calls, strong central composition, tactile ink graphic novel painting, charcoal desaturated deep teal with amber light, emotional sophisticated. No people faces text watermark borders or collage. Every subject fullyinsideframe with generousmargin."
+    },
+    {
+      "id": "splash",
+      "path": "assets/splash.png",
+      "prompt": "Use case: illustration-story. Standalone landscape16:9 title-screen art for original game Blackout Frequency: completely empty emergency dispatch room, unoccupied chair pushed backward before softlyglowing radio desk; rain on sea-facing window and dark town behind; red telephone with visibly severed cable ondesk. Mystery and absence, tactile painterly ink woodcut texture, dark teal charcoal warmamber exquisite light. No people faces letters text. Whole objects insideframe. Not collage."
+    },
+    {
+      "id": "arrival",
+      "path": "assets/scene-arrival.png",
+      "prompt": "Use case: illustration-story. Standalone16:9 fullscene original ink graphicnovel. Rainy coastal dispatchstation midnight, camera strictly BEHIND temporary operator sitting at radio desk, entire rearhead shoulders insideframe with margin, noface visible. Damp coat onchair, kettle, empty secondchair, port throughwindow, amberradio lights, intimate anticipation. Tactile painterlyink charcoal darkteal amber cyan restrainedpalette sophisticated mood. No text collage borders. No eyes noses mouths facialprofiles or faces/reflections anywhere; only rearhead or absolutelyfeatureless silhouette."
+    },
+    {
+      "id": "storm-hub",
+      "path": "assets/scene-storm-hub.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: A whole coastal flood map illuminated by a small lantern, radio cables leading toward wet window, hand drawn lines but NO readable text. Overhead dispatch planning station after first rescue. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "second-signal",
+      "path": "assets/scene-second-signal.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: A long receiver cable stretched over a puddle in abandoned communications annex, blue electrical glow, analog handset standing upright, mysterious secondary transmission. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "wrong-voice",
+      "path": "assets/scene-wrong-voice.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Two whole reel-to-reel tape spools slowly unwinding in an empty recording room, microphone and an abandoned woolcoat behind; a voice borrowed from the past. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "archive-room",
+      "path": "assets/scene-archive-room.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: A locked rusted metal archive door below the tide line, rear-view hooded operator holding amber lamp; whole head anddoor in frame, no face. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "archive-inspect",
+      "path": "assets/scene-archive-inspect.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Interior archive shelves with one cassette recorder, sealed consent form, damaged clock and numbered boxes without readable writing, clear objects separated for investigation. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "thirteen-minutes",
+      "path": "assets/scene-thirteen-minutes.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: An old wall clock half reflected in rising floodwater beside a radioqueue cabinet, clock hands frozen, torn paper trailing through shallow water, eerie stillness. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "consent-file",
+      "path": "assets/scene-consent-file.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Empty analog recording booth seen through scratched glass, microphone and headset laid beside a personal scarf, amber on-air lamp with no writing, guilt and memory. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "borrowed-breath",
+      "path": "assets/scene-borrowed-breath.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Large vintage speaker on rain-beaten window ledge, oscillating paper cone, distant rear silhouettes leaving clinic in background, bluegrey light and tender dread. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "director-call",
+      "path": "assets/scene-director-call.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Coastal director's office viewed toward closed black curtain and deskphone, only an opaque gloved hand beside official file, faceless power and quiet menace, wide shot. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "culpability",
+      "path": "assets/scene-culpability.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Rear view of solitary operator leaning over desk, both fists resting on folded signedpaper, rainwindow behind, whole rearhead visible, amber sadness not melodramatic. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "channel-hub",
+      "path": "assets/scene-channel-hub.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Empty dispatch room network of illuminated receiver cables acrosswetfloor, glass walls behind streaked with rain, three distant lights answered, panoramic composition. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "service-tunnel",
+      "path": "assets/scene-service-tunnel.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Narrow service stair descending beneath coastal tower, wet walls amberwarning bulbs, rope tied to railing, overhead stormwater vent, no people, full stair path. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "echo-check",
+      "path": "assets/scene-echo-check.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Open emergencyledger and sound recorder on a different longmetalarchive table, inset mechanicalqueue counters without readable labels, complex evidence still-life. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "queue-proof",
+      "path": "assets/scene-queue-proof.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Torn dispatch header emerging from a jammed printer beside restored cassette, red forensic thread and ink smear, entire papers visible, sudden realization. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "tide-warning",
+      "path": "assets/scene-tide-warning.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Red channel buoy leaning in a furious coastal storm, floodedclinic roof visible in distance, lighthousebeam through sidewaysrain, wide exterior environmental art. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "ledger-choice",
+      "path": "assets/scene-ledger-choice.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Three sealed archive envelopes oncleanlamp-litcounter, oneprotectedwithcloth, oneopenbesideradio, onebyunlitmatchbox; delicate moralchoice illustration withouttext. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "act-two-close",
+      "path": "assets/scene-act-two-close.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Lantern at a locked coastal roof access gate, wet shoes and lengthofrope abandonedbelow, exhaustednight before finalclimb, no people. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "tower-approach",
+      "path": "assets/scene-tower-approach.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Whole radio tower silhouetted above rising greysea, hooded operator seen strictlyfrombehind on elevated walkwaywithlantern, rearfullfigure safelyframed. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "final-hub",
+      "path": "assets/scene-final-hub.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Tower relayroomwith panoramic rainwindow, severalradioindicatorlights, rescue map andrope on table, stormturningtowardfirstblue light, no people. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "roof-hatch",
+      "path": "assets/scene-roof-hatch.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: A heavy rooftop hatch propped openwithawrench, amberlantern below, wind bendingantenna outside, whole opening containedinframe, no faces. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "switch-betrayal",
+      "path": "assets/scene-switch-betrayal.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Yellow-glovedhands discovering a snappedseal and illegal bypass wire inside tower controlcabinet, rearbody behindgloves noheadvisible, startlingredwarninglamp. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "rescue-check",
+      "path": "assets/scene-rescue-check.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Coastal roof shelter frombehind three fullyfeatureless wrapped figuresunderblankets, maroon backpack andnursewatchnearforefront, distantboatlantern, nofaces. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "flood-choice",
+      "path": "assets/scene-flood-choice.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Two watergates at towerbase, one tied by rope andotherheldbyheavybar, glovedhands choose lever, powerful flood below, fullequipmentframing. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "public-channel",
+      "path": "assets/scene-public-channel.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: A battered radio microphone standingagainstopeningbluehorizon, evacuatedrooftopsbelow andunlitlighthousebehind, thewholemicrophoneinframe, courage and resolve. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "publication",
+      "path": "assets/scene-publication.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Close butfullycontainedstill-life of archivepapers, blankname-strips removed, ambertransmitter andink pen, firstdawnreflection; choices of truth and protection, no text. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "final-send",
+      "path": "assets/scene-final-send.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Radioantennas bendinginthewind as a singlewarmbeaconlightsfromtower, widecitycoast shotwithdawnbreakingthroughclouds, hopeful butearned. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "dawn-crossing",
+      "path": "assets/scene-dawn-crossing.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Smallrescueboatreachingcoastaljetty inbluegold dawn, wrapped passengers strictlyrearviews/featurelesssilhouettes, wholeboat insideframewithmargin, exhaustedtenderness. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "aftermath",
+      "path": "assets/scene-aftermath.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Morning emptyclinicservicehall withfoldedblankets, brokenwatch restingbesidefreshtea, redbagstrap onchair, lightreflectingquietpuddles, humane andbittersweet. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "final-ending",
+      "path": "assets/scene-final-ending.png",
+      "prompt": "Use case: illustration-story. SINGLE standalone cinematic landscape16:9 original literary graphic novel game artwork, NOT contact sheet, not collage. Scene: Golden dawn over a scarred coastal city, radio tower quietbutstanding, anempty operator chair facingtheopenwindow, letters andsmalllantern nearby, earnedhope andmemory, nopeople. Sophisticated textured painterly ink and woodcut style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail, beautiful dramatic light. Whole important subjects inside frame with safe margins. STRICT no facial anatomy anywhere: no eyes noses mouths profiles or faces in reflections. People only strict rear heads, fully opaque covered faces, featureless silhouettes; no front face. No readable text, labels, numbers, watermark, borders."
+    },
+    {
+      "id": "recording-phrase",
+      "path": "assets/scene-recording-phrase.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Original tape reel beside tiny label file27 and unused training microphone, discarded paper cup. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "crossing-report",
+      "path": "assets/scene-crossing-report.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Wet sleeves reaching across a handrail, yellow glove among them, blurred faceless hooded figures climbing away. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "before-publication",
+      "path": "assets/scene-before-publication.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Open archive module between a signed routing page and neatly redacted identity slips, rain on sleeve edges. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "bell-call",
+      "path": "assets/scene-bell-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Market bell loft, older woman shown from rear in full head wrap and long raincoat holding neighbor radio. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "bell-rope-scene",
+      "path": "assets/scene-bell-rope-scene.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Close view of brass bell rope snagged on shutter hook, dry upper landing and wood grain. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "bell-answer",
+      "path": "assets/scene-bell-answer.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Brass market bell ringing against dawnless rooftops, torchlit windows answering across rain. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "medicine-call",
+      "path": "assets/scene-medicine-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Blue hooded medic from behind and porter fully covered by hood carrying sealed cooler above flooded loading ramp. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "medicine-route",
+      "path": "assets/scene-medicine-route.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Cargo tag on sealed cooler beside laundry passage arrow, tiled dry uphill corridor beyond. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "medicine-delivery",
+      "path": "assets/scene-medicine-delivery.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Sealed clinic cooler on hill-shelter intake counter, blue hooded medic back and empty waiting chair. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "letter-open",
+      "path": "assets/scene-letter-open.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Private old memory card labeled Nila beside rain-dappled service inbox, operator sleeve paused nearby. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "letter-listen",
+      "path": "assets/scene-letter-listen.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Memory image of two breakfast cups at ferry-terminal stall, empty chairs and folded charger cable, no people. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "letter-answer",
+      "path": "assets/scene-letter-answer.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Single private recording cassette tucked inside operator coat pocket, breakfast receipt held in hand. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "witness-call",
+      "path": "assets/scene-witness-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Grey raincoat senior operator from behind on pump house roof, coat hem snagged on nail, signal lamp. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "witness-proof",
+      "path": "assets/scene-witness-proof.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Voluntary handwritten witness statement beside signed routing copy, grey gloved hand covering private address. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "witness-return",
+      "path": "assets/scene-witness-return.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Pump house roof pickup, rescue boat below and grey coated operator descending from behind with wrapped lunch package. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "dog-bark",
+      "path": "assets/scene-dog-bark.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Small sandy dog on narrow service ledge below route flare, fully covered gate worker seen from rear above ladder. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "dog-ladder",
+      "path": "assets/scene-dog-ladder.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Maintenance ladder leading from flooded ledge to upper tower stair, glowing flare and dry rung markers. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "dog-home",
+      "path": "assets/scene-dog-home.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Sandy dog wrapped in open raincoat on upper landing, boots and lamp nearby, gate worker head outside frame. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "encounter-window",
+      "path": "assets/scene-encounter-window.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Neighborhood balcony windows with varied torch signals across rain, no visible human faces. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "encounter-rooftops",
+      "path": "assets/scene-encounter-rooftops.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Roofs with bedsheet rescue flag, drowned birthday-cake box and small reflective mirror, tiny hooded back silhouettes. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "encounter-tunnel",
+      "path": "assets/scene-encounter-tunnel.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Dry-side service tunnel, wedged cleaning trolley, one abandoned shoe and lamp above route chalkmarks. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "encounter-cargo",
+      "path": "assets/scene-encounter-cargo.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Rainy bakery delivery van beside stacked bread crates and tied pet carrier, anonymous driver back silhouette. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "encounter-rescue",
+      "path": "assets/scene-encounter-rescue.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Small rescue boat moored beside inland stair with drenched luggage and forgotten coat, hooded crew from rear. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "encounter-static",
+      "path": "assets/scene-encounter-static.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone cinematic landscape16:9 original literary coastal mystery game artwork; not a collage or contact sheet. Scene: Tower battery radio among rain drops with unplugged receiver lead, separate small lamp shining through fog. Sophisticated textured painterly ink and woodcut graphic novel style, deep charcoal desaturated teal with amber and restrained cyan, rich tactile detail and expressive light. Whole important subjects safely inside frame with generous margins. STRICT NO facial anatomy anywhere: no eyes noses mouths profiles exposed faces or facial reflections. People only strict rear heads, fully opaque covered faces or featureless silhouettes. No readable text labels numbers borders watermarks."
+    },
+    {
+      "id": "storm-hub-1",
+      "path": "assets/scene-storm-hub-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Dispatch room after first successful errands, low camera near kettle and a neatly coiled wet bell rope, back of operator in distant chair, warmer console and stronger rain outside. A completely new viewpoint."
+    },
+    {
+      "id": "storm-hub-2",
+      "path": "assets/scene-storm-hub-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Dispatch station viewed from high corner, open medicine crate on side table, empty cups and a damp towel, operator from rear, port windows pulsing with reflected boat lights."
+    },
+    {
+      "id": "storm-hub-3",
+      "path": "assets/scene-storm-hub-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Dispatch station from doorway across cyan window light, lit spare radio in foreground, rear of operator reaching for notebook, storm wind rattling an umbrella beside door."
+    },
+    {
+      "id": "storm-hub-4",
+      "path": "assets/scene-storm-hub-4.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Long wide view along dispatch desk toward fogged window, four answered handsets resting quietly, kettle steaming, operator only rear silhouette, dawn still far away, hopeful warm pools amid rain."
+    },
+    {
+      "id": "channel-hub-1",
+      "path": "assets/scene-channel-hub-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Archive corridor relay station at stair landing, dry evidence envelope and amber desk lamp foreground, completely rear-facing hooded rescuer pausing by concrete stair, storm spray entering cracked vent."
+    },
+    {
+      "id": "channel-hub-2",
+      "path": "assets/scene-channel-hub-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. New low angle of service corridor relay table: old pocket cassette and small folded scarf beside warm receiver, corridor stretching behind, no people, tender stillness amid storm."
+    },
+    {
+      "id": "channel-hub-3",
+      "path": "assets/scene-channel-hub-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Top-down wide view of relay table with four different cable spools and a mud stained flashlight, faceless rear operator sitting beyond desk, flood reflections climbing service stairs."
+    },
+    {
+      "id": "channel-hub-4",
+      "path": "assets/scene-channel-hub-4.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Relay station at deep storm night from opposite doorway, lamps switched to emergency amber, wet footprints heading upstairs, four call lamps and unplugged archive cable, no people."
+    },
+    {
+      "id": "final-hub-1",
+      "path": "assets/scene-final-hub-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Tower maintenance landing after pet rescue, back of a dark dog with its entire rear head turned completely away in a dry blanket beside empty water bowl, hanging orange life jackets, cyan rain outside, animal face invisible."
+    },
+    {
+      "id": "final-hub-2",
+      "path": "assets/scene-final-hub-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Tower landing near roof hatch seen from ladder base, three emergency blankets neatly folded on dry bench and dripping raincoat, amber light and cool dawn edge, no visible humans."
+    },
+    {
+      "id": "final-hub-3",
+      "path": "assets/scene-final-hub-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Final tower landing toward open roof hatch, empty radio stool, a paper boat safely on a dry ledge, lifelines anchored to railing, turquoise horizon beginning to lift, no people."
+    },
+    {
+      "id": "final-ending-fullSignal",
+      "path": "assets/scene-final-ending-fullSignal.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Hopeful dawn at coastal footbridge: entire rear views of rescued silhouettes crossing toward warm shelter, operator at radio tower rear silhouette at generous distance, a simple untitled evidence envelope on foreground rail. Public truth and safe evacuation, no writing."
+    },
+    {
+      "id": "final-ending-shelteredTruth",
+      "path": "assets/scene-final-ending-shelteredTruth.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Tender coastal dawn shelter with entire rear views of nurse wrapping blanket around fully rear-facing survivor; closed anonymous evidence packet beside radio, dog rear silhouette sleeping away from camera. Mist lifting, private dignity and shared rescue."
+    },
+    {
+      "id": "final-ending-ashes",
+      "path": "assets/scene-final-ending-ashes.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Ambiguous dawn empty dispatch desk, cold cassette ash in safe metal tray, untouched warm radio and an orange lifebuoy at window, sea calming outside. Beautiful restrained visual of lost evidence and surviving people, no faces."
+    },
+    {
+      "id": "final-ending-exposedWitness",
+      "path": "assets/scene-final-ending-exposedWitness-v2.png",
+      "prompt": "Use case: precise-object-edit. Edit the original coastal dawn graphic novel scene. Recompose the camera substantially wider so the foreground solitary hooded witness becomes smaller and their entire rear-view figure from top of hood to both boot soles is visible, with at least10percent breathing room below the boots and safe side margins. Keep the figure strictly facing away, no facial anatomy. Preserve emotional distance from background rescued people, amber dawn, teal ink waves, city reflections, wet seawall, same tactile painterly ink style, same16:9 landscape. Absolutely no front faces, eyes, nose, mouth, profile, readable text. Whole foreground coat and boots must stay inside canvas.",
+      "originalPrompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Bittersweet dawn solitary hooded witness strictly full rear view on long sea wall, shoulders held tense, other rescued figures far away strictly rear silhouettes, bright city window reflections behind, exposed privacy emotional distance.",
+      "editReference": "assets/scene-final-ending-exposedWitness.png"
+    },
+    {
+      "id": "final-ending-fracturedTruth",
+      "path": "assets/scene-final-ending-fracturedTruth.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Uneasy dawn coastal station, two incomplete routes of blank torn papers beside radio and a wet rescue rope, a small evacuation boat arriving through fog with only rear silhouettes aboard. Lives saved but truth incomplete, no text."
+    },
+    {
+      "id": "final-ending-lostSignal",
+      "path": "assets/scene-final-ending-lostSignal.png",
+      "prompt": "Use case: illustration-story. Asset type: unique landscape 16:9 illustration for original faceless mystery graphic novel Blackout Frequency. Tactile ink and painterly woodcut, charcoal deep teal, restrained cyan and warm amber, cinematic emotional storytelling. Single complete scene, no panel collage, no words letters logos or borders. Composition safe with generous margins; entire key subjects inside frame. Absolute facial prohibition: no eyes noses mouths cheeks profiles facial anatomy or facial reflections, human or animal. Any person is strictly viewed from behind with rear head only or fully opaque covered head. Quiet heartbreaking dawn empty flooded quay, abandoned orange rescue ring and silent handset on high dry post, broken bridge fading into sea fog, lone rear-view operator at safe distance. No dead bodies, emotional absence and regret."
+    },
+    {
+      "id": "encounter-window-1",
+      "path": "assets/scene-encounter-window-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Upstairs flood window from inside: entire rear views of small hooded child and fully rear facing father beside rain glass, simple stair plan and amber radio, sea far below, concern and tenderness."
+    },
+    {
+      "id": "encounter-window-2",
+      "path": "assets/scene-encounter-window-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Empty upstairs balcony with small vintage radio beside portable record player, warm curtains billowing into cold rain, coastal city darkness beyond, four seconds of old music. No people."
+    },
+    {
+      "id": "encounter-window-3",
+      "path": "assets/scene-encounter-window-3-v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this original landscape graphic novel upstairs shelter illustration. Remove the large foreground hooded person and backpack entirely. Fill that area naturally with the continuation of the wood floor, complete stair railing, and a neatly folded small emergency blanket on a stool. Keep the warm inviting upstairs room, seven mismatched chairs, rain windows, umbrellas and tactile teal amber ink style. No people anywhere. Preserve landscape16:9, whole key chairs inside frame, no text or facial anatomy. The illustration should convey a room offering shelter through empty chairs, not through a cropped body.",
+      "originalPrompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Warm upstairs room with seven empty mismatched chairs and extra folded blanket in very small corner, neighbors' wet umbrellas resting at open door, inviting and humorous safe haven, no people.",
+      "editReference": "assets/scene-encounter-window-3.png"
+    },
+    {
+      "id": "encounter-rooftops-1",
+      "path": "assets/scene-encounter-rooftops-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Whole rooftop safely framed with wedding bedsheet flag flapping from central pole, weak amber battery lamp, two neighbors strictly full rear hooded silhouettes facing water, broad storm sky."
+    },
+    {
+      "id": "encounter-rooftops-2",
+      "path": "assets/scene-encounter-rooftops-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Closed birthday cake box on a dry rooftop table under improvised tarp, six drowned candles resting beside it, entirely rear view of older woman in full rain hood seated nearby. No writing on box."
+    },
+    {
+      "id": "encounter-rooftops-3",
+      "path": "assets/scene-encounter-rooftops-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Rear-facing shopkeeper on flat rooftop signals with shaving mirror pointed AWAY from camera reflecting sky only, rear view of hooded neighbor beside failing lamp and roaring generator, whole figures safely inside frame."
+    },
+    {
+      "id": "encounter-tunnel-1",
+      "path": "assets/scene-encounter-tunnel-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Maintenance tunnel flood door braced by cleaning trolley, entire rear of hooded cleaner holding mop, two fully rear hooded silhouettes on dry upper side, trembling amber lamp, ingenious everyday rescue."
+    },
+    {
+      "id": "encounter-tunnel-2",
+      "path": "assets/scene-encounter-tunnel-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Very old tunnel map without legible words beside a cupboard with folded towels, rear of older plumber pointing toward hidden side passage and dry amber stair, gentle everyday absurdity."
+    },
+    {
+      "id": "encounter-tunnel-3",
+      "path": "assets/scene-encounter-tunnel-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Whole rear view of hooded security guard with one missing shoe carrying covered resident with rear-facing partner toward dry laundry stair, loose abandoned shoe on high ledge, blue storm water below."
+    },
+    {
+      "id": "encounter-cargo-1",
+      "path": "assets/scene-encounter-cargo-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Rear open doors of rescue van above flooded dock, damp sealed rice sack with tied top and no animal anatomy visible beside blankets and luggage, all people strictly fully rear covered silhouettes. Comic bustle and warm rear light."
+    },
+    {
+      "id": "encounter-cargo-2",
+      "path": "assets/scene-encounter-cargo-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Wet dock-office desk lit by amber lamp, entirely blank sealed official envelope, second courier envelope and distinctive dark wax stamp, rain curtain behind. No people, quiet chain of responsibility."
+    },
+    {
+      "id": "encounter-cargo-3",
+      "path": "assets/scene-encounter-cargo-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Baker delivery van doors open beside thirty bread rolls carefully wrapped in paper, rear hooded baker holding warm loaf out to empty dry inland road, headlights reflected in rain, whole van inside frame."
+    },
+    {
+      "id": "encounter-rescue-1",
+      "path": "assets/scene-encounter-rescue-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Dry stair landing: rear hooded boy kneeling next to entire rear view of awake older person in oversized coat, small amber radio safely on step, reassuring companionship, no visible faces."
+    },
+    {
+      "id": "encounter-rescue-2",
+      "path": "assets/scene-encounter-rescue-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Two newlyweds completely rear-view beneath rain hoods at upper landing holding one dry suitcase with mismatched ribbons, empty third chair nearby for missing uncle, wry warmth in storm."
+    },
+    {
+      "id": "encounter-rescue-3",
+      "path": "assets/scene-encounter-rescue-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Fisherman's whole boat tied to inland stairs with rope safely framed, strictly full rear hooded fisherman aboard, two empty dry benches and amber lantern, quiet practical hope through storm."
+    },
+    {
+      "id": "encounter-static-1",
+      "path": "assets/scene-encounter-static-1.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Entire rear of solitary hooded older man in upstairs apartment holding simple radio, small candle and dry chair beside window, city submerged below, visual feeling of finally being heard. No visible text."
+    },
+    {
+      "id": "encounter-static-2",
+      "path": "assets/scene-encounter-static-2.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Gloved hands pulling thin archive cable out of radio socket beside worn analogue receiver, old cassette reels becoming still, no heads or bodies, one warm lamp and wide quiet window."
+    },
+    {
+      "id": "encounter-static-3",
+      "path": "assets/scene-encounter-static-3.png",
+      "prompt": "Use case: illustration-story. Asset type: unique complete16:9 landscape scene for original Blackout Frequency faceless graphic novel. Tactile painterly ink and woodcut, charcoal deep teal cyan and amber, cinematic thoughtful emotional tone. Single scene, no collage, no text letters numbers logos watermark border. Every key subject fully framed with generous safe margin. Absolutely no facial anatomy: no eyes nose mouth cheek profiles face reflections, animal or human. People only strictly from BACK with rear of head or full opaque rain hood, never angled toward camera. Rear view of small girl fully hooded seated at neighbor's radio table, telescope silhouette by window and dim stars above storm skyline, father absent, gentle longing. Entire rear head and body visible from behind only."
+    },
+    {
+      "id": "desk",
+      "path": "assets/scene-desk.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Empty dispatch desk seen from overhead: printed shift log, folded electrical diagram, disconnected red telephone, cold coffee on saucer, all four objects clearly separated and completely visible. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "first-signal",
+      "path": "assets/scene-first-signal.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: A portable analog receiver on damp windowsill, single hand adjusting its amber dial, a long cyan needle and rain-droplet glass behind. Close scene with entire receiver inside frame. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "mara-call",
+      "path": "assets/scene-mara-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Rear view of a nurse in a dark service stairwell guiding two blanket-covered patients away from floodwater; broken wristwatch glinting, backs of heads only, warm emergency lantern. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "iman-call",
+      "path": "assets/scene-iman-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Yellow-gloved hands bracing two industrial switches in a vast dark transformer room, sparks reflected in wet metal, person entirely behind machinery. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "raka-call",
+      "path": "assets/scene-raka-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: A hooded courier strictly from behind before a locked dock gate; distinctive red bag strap, shoes in rising water, full head and shoulders safely framed. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "pressure",
+      "path": "assets/scene-pressure.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: The courier's red shoulder bag and trembling gloved hand on a railing above black water. Intimate still-life, no head visible; distant clinic exit lantern. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "after-pressure",
+      "path": "assets/scene-after-pressure.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Overhead still-life of radio, wet paper street map with hand-drawn circle, red fabric strap, green pencil. Distinct dispatch desk composition, no readable text. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "cross-check",
+      "path": "assets/scene-cross-check.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: A pinboard with two differently dated paper recordings, red thread between an old clock and tape recorder, empty chair in background. No readable text or numbers. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "reconstructed",
+      "path": "assets/scene-reconstructed.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: A water-stained dispatch printer feeding a torn strip beside a stopped clock and looping tape, wide lowangle, uneasy amber shadows. No readable writing. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "disclosure",
+      "path": "assets/scene-disclosure.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Three portable radios arranged at different depths of a wet dispatch desk, one glowing amber, another cyan, third red, rain washing city window; three lives connected. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "power-grid",
+      "path": "assets/scene-power-grid.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Whole backup generator control board centered, three large mechanical circuit switches, two amber status lamps illuminated and one dark; spacious industrial setting, gloved hand near lever. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "evacuation",
+      "path": "assets/scene-evacuation.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Clinic service hallway newly illuminated by sparse amber floor lights, floodwater reflected on tiles; nurse and patients seen only as featureless back silhouettes at far end. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "rescue-plan",
+      "path": "assets/scene-rescue-plan.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: A branching coastal walkway: one narrow stair leading to lit clinic door, other route ending at locked iron harbor gate, hooded courier from rear centered between routes, full rear head inside frame. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "final-call",
+      "path": "assets/scene-final-call.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Severed red telephone ringing on completely empty desk, coil cable end visible, radio warning lamp, third chair facing wall, rain-dark window. Supernatural-looking but grounded mystery. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "ending",
+      "path": "assets/scene-ending.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Small emergency receivers lined on empty coastal station shelf just before dawn, wet coat and a red strap drying nearby, bluegrey sea beyond window; uncertainty and quiet tenderness. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "onboarding-1",
+      "path": "assets/scene-onboarding-1.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: A silent rain-covered radio receiving a tiny amber waveform, blue coastal skyline beyond, wide intimate illustration for learn-to-listen tutorial. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "onboarding-2",
+      "path": "assets/scene-onboarding-2.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: An empty detective desk with two paper clues connected by thread, small lamp, folded handwritten map, completely different overhead illustration for learn-to-investigate tutorial. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    },
+    {
+      "id": "onboarding-3",
+      "path": "assets/scene-onboarding-3.png",
+      "prompt": "Use case: illustration-story. A SINGLE standalone landscape16:9 illustration for an original literary mystery game, not a collage or contact sheet. Scene: Rear view of hooded operator holding a lantern at a fork of two flooded paths toward distant lights, full figure silhouette entirely in frame, illustration for choices-have-consequences tutorial. Style: sophisticated textured painterly ink and woodcut graphic novel, dark charcoal and desaturated teal with amber and restrained cyan, rich tactile detail, emotional cinematic lighting. Composition: whole main subjects inside frame with margin, no close crop of head or important objects. Absolutely no facial anatomy anywhere: no eyes, noses, mouths, profiles, exposed faces, or facial reflections; people only rear heads, completely opaque covered faces, or entirely featureless silhouettes. No text, labels, letters, watermarks, borders."
+    }
+  ]
+}

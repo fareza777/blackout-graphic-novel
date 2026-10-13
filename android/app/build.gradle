@@ -1,0 +1,78 @@
+plugins { id 'com.android.application' }
+
+def releaseSecrets = new Properties()
+def secretsPath = System.getenv('BLACKOUT_SIGNING_PROPERTIES')
+if (secretsPath && file(secretsPath).isFile()) file(secretsPath).withInputStream { releaseSecrets.load(it) }
+def appVersion = new Properties()
+rootProject.file('version.properties').withInputStream { appVersion.load(it) }
+def testAds = providers.gradleProperty('admobTestMode').getOrElse('true').toBoolean()
+def demoPublisher = 'ca-app-pub-3940256099942544'
+def adIds = [app: '~3347511713', banner: '/9214589741', interstitial: '/1033173712', rewarded: '/5224354917']
+adIds = adIds.collectEntries { format, suffix ->
+    def value = testAds ? demoPublisher + suffix : providers.gradleProperty('admob' + format.capitalize() + 'Id').getOrElse('')
+    def separator = format == 'app' ? '~' : '/'
+    if (!(value ==~ ('ca-app-pub-[0-9]{16}' + separator + '[0-9]{10}')) || (!testAds && value.startsWith(demoPublisher)))
+        throw new GradleException('Provide a real AdMob ' + format + ' ID before disabling test mode.')
+    [(format): value]
+}
+
+android {
+    namespace 'com.blackoutfrequency.game'
+    compileSdk 36
+    testBuildType 'release'
+    buildFeatures { buildConfig true }
+    buildToolsVersion '36.0.0'
+    defaultConfig {
+        applicationId 'com.blackoutfrequency.game'
+        minSdk 26
+        targetSdk 36
+        versionCode appVersion.getProperty('versionCode').toInteger()
+        versionName appVersion.getProperty('versionName')
+        buildConfigField 'boolean', 'ADMOB_TEST_MODE', testAds.toString()
+        adIds.each { format, value -> buildConfigField 'String', 'ADMOB_' + format.toUpperCase() + '_ID', '"' + value + '"' }
+        resValue 'string', 'admob_app_id', adIds.app
+        testInstrumentationRunner 'com.blackoutfrequency.game.OfflineSmokeInstrumentation'
+        testProguardFiles 'proguard-test-rules.pro'
+    }
+    signingConfigs {
+        release {
+            if (!releaseSecrets.isEmpty()) {
+                storeFile file(releaseSecrets.getProperty('storeFile'))
+                storePassword releaseSecrets.getProperty('storePassword')
+                keyAlias releaseSecrets.getProperty('keyAlias')
+                keyPassword releaseSecrets.getProperty('keyPassword')
+            }
+            enableV1Signing true
+            enableV2Signing true
+            enableV3Signing true
+        }
+    }
+    buildTypes {
+        debug { if (!releaseSecrets.isEmpty()) signingConfig signingConfigs.release }
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (!releaseSecrets.isEmpty()) signingConfig signingConfigs.release
+        }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    androidResources { noCompress += ['mp3', 'webp'] }
+    testOptions { unitTests.includeAndroidResources = true }
+    lint { abortOnError true; checkReleaseBuilds true }
+}
+
+dependencies {
+    implementation 'androidx.activity:activity:1.11.0'
+    implementation 'androidx.webkit:webkit:1.14.0'
+    implementation 'com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:1.5.0'
+    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}
+
+tasks.register('requireReleaseSigning') {
+    doLast { if (releaseSecrets.isEmpty()) throw new GradleException('Run tools/build-apk.ps1 to create a signed APK, or provide BLACKOUT_SIGNING_PROPERTIES.') }
+}
+tasks.configureEach { if (name == 'packageRelease') dependsOn 'requireReleaseSigning' }
